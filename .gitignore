@@ -1,0 +1,35 @@
+data/
+*.zip
+*.tar
+*.png
+*.jpg
+*.jpeg
+
+data/images/
+data/dataset/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Dataset (big files)
+data/
+*.zip
+*.tar
+*.gz
+*.jpg
+*.jpeg
+*.png
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
