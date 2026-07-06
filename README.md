@@ -58,6 +58,13 @@ curl -X POST -F "file=@sample.jpg" http://127.0.0.1:8000/predict
 ```bash
 streamlit run dashboard.py
 ```
+## Demo UI
+
+
+![Upload UI](screeshots/Capture d'écran 2026-07-06 165432.png)
+
+### Prediction result
+![Prediction UI](screeshots/Capture d'écran 2026-07-06 165444.png)
 
 ## Notes for the resume / cover letter
 - Classifies waste into the same categories Nielsen already sorts (carton,
