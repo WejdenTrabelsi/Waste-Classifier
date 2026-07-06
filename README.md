@@ -1,10 +1,8 @@
-# Nielsen Waste Classifier
+# Waste Classifier
 
-Photo-based waste identification tool with equipment recommendations, inspired
-by Nielsen Solutions' own sorting methodology (15 waste families → dedicated
-equipment).
+Photo-based waste identification tool with equipment recommendations.
 
-Upload a photo of a waste item → get its type + recommended Nielsen machine
+Upload a photo of a waste item → get its type + recommended machine
 + expected volume reduction.
 
 ## Stack
@@ -21,7 +19,7 @@ waste-classifier/
 ├── train.py               # trains and exports the model
 ├── app.py                 # FastAPI backend
 ├── dashboard.py           # Streamlit demo UI
-├── recommendations.py     # class -> Nielsen equipment mapping
+├── recommendations.py     # class ->  equipment mapping
 └── requirements.txt
 ```
 
@@ -67,9 +65,8 @@ streamlit run dashboard.py
 ![Prediction UI](screeshots/ui2.png)
 
 ## Notes for the resume / cover letter
-- Classifies waste into the same categories Nielsen already sorts (carton,
-  papier, plastique, verre, métal) and maps each to a real Nielsen machine
-  (presse à balles, broyeur, compacteur) using their published compression
-  ratios.
+- Classifies waste into categories (carton,
+  papier, plastique, verre, métal) and maps each to a machine
+  (presse à balles, broyeur, compacteur) .
 - Same architecture pattern as a "decision support" tool: input → prediction
   → actionable recommendation, not just a classifier demo.
