@@ -61,10 +61,10 @@ streamlit run dashboard.py
 ## Demo UI
 
 
-![Upload UI](screeshots/Capture d'écran 2026-07-06 165432.png)
+![Upload UI](screeshots/ui1.png)
 
 ### Prediction result
-![Prediction UI](screeshots/Capture d'écran 2026-07-06 165444.png)
+![Prediction UI](screeshots/ui2.png)
 
 ## Notes for the resume / cover letter
 - Classifies waste into the same categories Nielsen already sorts (carton,
