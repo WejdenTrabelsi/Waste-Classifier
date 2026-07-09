@@ -64,9 +64,3 @@ streamlit run dashboard.py
 ### Prediction result
 ![Prediction UI](screeshots/ui2.png)
 
-## Notes for the resume / cover letter
-- Classifies waste into categories (carton,
-  papier, plastique, verre, métal) and maps each to a machine
-  (presse à balles, broyeur, compacteur) .
-- Same architecture pattern as a "decision support" tool: input → prediction
-  → actionable recommendation, not just a classifier demo.
